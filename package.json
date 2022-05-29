@@ -1,0 +1,15 @@
+{
+    "name": "Dialogue_8",
+    "short_name": "Dialogue_8",
+    "version": "0.1.0",
+    "main": "assets/Dialogue_8/cloud/disclaimer.html",
+    "window": {
+        "toolbar": false,
+        "frame": true,
+        "icon": "book/obs.png",
+        "min_width": 800,
+        "min_height": 600,
+        "fullscreen": false,
+        "show": true
+    }
+}

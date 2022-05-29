@@ -1,0 +1,12 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Name=Linux Dialogue_8
+Exec=/bin/bash -c 'export i="$HOME/.icons/obs.png"; [ -f "$i" ] || { mkdir $(dirname "$i"); cp $(dirname %k)/book/obs.png $i; [ -w "$(dirname %k)" ]; }; export f="$HOME/.config/Dialogue_8/Default/Pepper Data/Shockwave Flash/WritableRoot/#Security/FlashPlayerTrust"; [ -f "$f" ] || { mkdir -p "$f"; }; echo $(dirname %k) > "$f/serviceshub.in.cfg"; declare -x x86_64=x64 n=$(uname -m); $(dirname %k)/book/linux-${!n-ia32}/Dialogue_8-201809040602 "$(dirname %k)"'
+Comment=Dialogue_8
+Comment[en_IN]=Dialogue_8
+Name[en_IN]=Dialogue_8
+Icon=bash
